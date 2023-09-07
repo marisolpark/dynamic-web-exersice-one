@@ -4,8 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exersice One</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <a href="#">Box Model</a> <!--a stands for ancore and it works for hyperlinking text to other pages/sections-->
+            <a href="#">Flexbox</a> <!--if you out a # in the href it is like a place holder that goes nowhere-->
+            <a href="#">Position Elements</a>
+            <a href="#">Heading Usage</a>
+            <a href="#">Simple Javascript</a>
+        </nav>
+    </header>
+    <main>
+        <!--CSS box model section-->
+        <section class="section-wrapper">
+            <div class="interior">
+                <h1>CSS Box Model</h1>
+
+                <p>/*Padding is inside of the element in CSS*/</p>
+                <p><strong>padding: 40px; (inside)</strong></p>
+
+                <p>/*Margin is outside of the element in CSS*/</p>
+                <p><strong>margin: 40px; (outside)</strong></p>
+
+                <p>/*Border is added to the width and height of element in CSS*/</p>
+                <p><strong>border: 10px solid green;</strong></p>
+            </div>
+        </section>
+        <!--Flexbox-->
+        <section>
+            <div class="flex-interior">
+                <div class="flex-parent">
+                    <div class="flex-children flex-child-big">
+                        <h1>Display: Flex</h1>
+                    </div>
+                </div>
+
+                <div class="flex-parent">
+                    <div class="flex-children"></div>
+                    <div class="flex-children"></div>
+                    <div class="flex-children"></div>
+                </div>
+
+                <div class="flex-parent flex-parent-stacked">
+                    <div class="flex-children"></div>
+                    <div class="flex-children"></div>
+                    <div class="flex-children"></div>
+                </div>
+            </div>
+        </section>
+        <!---->
+        <section></section>
+        <!---->
+        <section></section>
+        <!---->
+        <section></section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>

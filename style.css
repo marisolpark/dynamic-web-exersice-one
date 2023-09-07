@@ -1,0 +1,92 @@
+/* * {} the star means everything is getting selected*/
+html,
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+a {
+    color: black;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.section-wrapper {
+    background-color: lightblue;
+    padding: 25px;
+}
+
+.interior {
+    background-color: #9ef490;
+    border: 10px solid green;
+    margin: 40px; /*'auto' would just fill the paddings in*/
+    padding: 40px; 
+}
+
+.flex-interior {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 40px 0;
+}
+
+.flex-parent {
+    background-color: lightcoral;
+    border: 10px solid brown;
+    display: flex;
+    flex-basis: 40%;
+    flex-shrink: 0;
+    gap: 25px;
+    padding: 25px;
+    width: 100%;
+}
+
+.flex-parent:first-of-type {/*sudo selectors are instances in CSS where you are choosing a element specifically*/
+    flex-basis: 100%;
+    padding: 40px;
+}
+
+.flex-parent:first-child h1 {
+    color: brown;
+}
+
+.flex-parent-stacked {
+    flex-direction: column;
+}
+
+.flex-children {
+    background-color: beige;
+    border: 2px solid orange;
+    flex-basis: 33%;
+    min-height: 100px;
+}
+
+.flex-child-big {
+    align-items: center;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+
+
+/*.anchor-tag { //this is for classes
+    color: red;
+}*/
+
+/*#anchor-id { //this would be using the ID. DO NOT apply style based on ID bc it is bad code and it would only apply to on specific element
+    color: no;
+}*/
+
