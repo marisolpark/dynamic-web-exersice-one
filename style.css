@@ -117,12 +117,6 @@ header nav a:last-of-type {
     padding: 40px 20px;
 }
 
-/*The positions can be:
-- static (default)
--relative
--absolute
--fixed*/
-
 .interior--positioning {
     background-color: #85c4ff;
     border-color: rgb(16, 109, 116);
@@ -141,20 +135,9 @@ header nav a:last-of-type {
 }
 
 .square {
-    background-color: antiquewhite;
+    background-color: white;
     border: 5px solid blue;
     width: 80px;
     position: absolute;
     height: 80px;
 }
-
-
-
-/*.anchor-tag { //this is for classes
-    color: red;
-}*/
-
-/*#anchor-id { //this would be using the ID. DO NOT apply style based on ID bc it is bad code and it would only apply to on specific element
-    color: no;
-}*/
-
